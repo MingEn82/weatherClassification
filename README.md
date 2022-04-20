@@ -4,7 +4,7 @@ This is a mini project for SC1015 (Introduction to Data Science and Artificial I
 # Contributors
 Kenny - Data Extraction, Slides, Video  
 Wei Xian - EDA, Slides, Video  
-[Ming En](https://github.com/MingEn82) - Model Architecture, Data Visualization, Data Analysis 
+[Ming En](https://github.com/MingEn82 "Github") - Model Architecture, Data Visualization, Data Analysis 
 
 # Problem Definition
 We would like to determine whether one should bring an umbrella outside by predicting the weather condition given past data.
