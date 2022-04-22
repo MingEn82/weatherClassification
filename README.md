@@ -9,16 +9,16 @@ Wei Xian - EDA, Slides, Video
 # Problem Definition
 We would like to determine whether one should bring an umbrella outside by predicting the weather condition given past data.
 
-# Models used
-1. Support Vector Machines with the Radial Basis Function (RBF) kernel
-2. Gradient Boosting Trees
-3. LSTM
+# Models used in order of performance
+1. Gradient Boosting Trees
+2. LSTM
+3. Support Vector Machines with the Radial Basis Function (RBF) kernel
+4. Logistic Regression
 
 # Models we experimented with
-1. Logistic Regression
-2. Support Vector Machines with the linear kernel
-3. Multi-layer Perceptron Classifier
-4. Balanced Bagging Classifier
+1. Support Vector Machines with the linear kernel
+2. Multi-layer Perceptron Classifier
+3. Balanced Bagging Classifier
 
 # Conclusion
 * Resampling imbalanced data improved model performance especially on the minority class
