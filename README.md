@@ -23,7 +23,7 @@ We would like to determine whether one should bring an umbrella outside by predi
 # Conclusion
 * Resampling imbalanced data improved model performance especially on the minority class
 * Logistic Regression did not perform well with non-linearly correlated variables
-* Neural Networks along with SMOTE resampling method consistently did well in predicting whether an umbrella is needed (86% recall for Yes, 96% recall for No)
+* Gradient Boosting Trees performed the best in classifying the weather conditions, as they are able to learn complex problems much better than classification techniques utilising linear or radial kernal functions
 * Traditional Machine Learning methods can perform with similiar performance to simple deep learning models with sufficient tuning of hyperparameters and data augmentation
 
 # Lessons Learnt
