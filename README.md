@@ -24,7 +24,7 @@ We would like to determine whether one should bring an umbrella outside by predi
 * Resampling imbalanced data improved model performance especially on the minority class
 * Logistic Regression did not perform well with non-linearly correlated variables
 * Neural Networks along with SMOTE resampling method consistently did well in predicting whether an umbrella is needed (86% recall for Yes, 96% recall for No)
-* Traditional Machine Learning methods out-performed simple deep learning models with sufficient tuning of hyperparameters
+* Traditional Machine Learning methods can perform with similiar performance to simple deep learning models with sufficient tuning of hyperparameters and data augmentation
 
 # Lessons Learnt
 * Handling imbalanced datasets using resampling methods and imblearn package
