@@ -16,9 +16,9 @@ We would like to determine whether one should bring an umbrella outside by predi
 4. Logistic Regression
 
 # Models we experimented with
-1. Support Vector Machines with the linear kernel
-2. Multi-layer Perceptron Classifier
-3. Balanced Bagging Classifier
+* Support Vector Machines with the linear kernel
+* Multi-layer Perceptron Classifier
+* Balanced Bagging Classifier
 
 # Conclusion
 * Resampling imbalanced data improved model performance especially on the minority class
