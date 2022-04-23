@@ -9,22 +9,22 @@ Wei Xian - EDA, Slides, Video
 # Problem Definition
 We would like to determine whether one should bring an umbrella outside by predicting the weather condition given past data.
 
-# Models used
-1. Support Vector Machines with the Radial Basis Function (RBF) kernel
-2. Gradient Boosting Trees
-3. LSTM
+# Models used in order of performance
+1. Gradient Boosting Trees
+2. LSTM
+3. Support Vector Machines with the Radial Basis Function (RBF) kernel
+4. Logistic Regression
 
 # Models we experimented with
-1. Logistic Regression
-2. Support Vector Machines with the linear kernel
-3. Multi-layer Perceptron Classifier
-4. Balanced Bagging Classifier
+* Support Vector Machines with the linear kernel
+* Multi-layer Perceptron Classifier
+* Balanced Bagging Classifier
 
 # Conclusion
 * Resampling imbalanced data improved model performance especially on the minority class
 * Logistic Regression did not perform well with non-linearly correlated variables
-* Neural Networks along with SMOTE resampling method consistently did well in predicting whether an umbrella is needed (86% recall for Yes, 96% recall for No)
-* Traditional Machine Learning methods performed at the same level as deep learning models with sufficient tuning of hyperparameters
+* Gradient Boosting Trees performed the best in classifying the weather conditions, as they are able to learn complex problems much better than classification techniques utilising linear or radial kernal functions
+* Traditional Machine Learning methods can perform with similiar performance to simple deep learning models with sufficient tuning of hyperparameters and data augmentation
 
 # Lessons Learnt
 * Handling imbalanced datasets using resampling methods and imblearn package
