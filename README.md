@@ -34,6 +34,11 @@ We would like to determine whether one should bring an umbrella outside by predi
 * Tuning Hyperparameters
 * Concepts about Precision, Recall, and F1 Score
 
+# Future Works
+* Classify whether conditions on degree of urgency (e.g. “Highly Recommended”, "Slightly Recommended", “Not Recommended” etc.)
+* Include macroweather features (long term flucuations of temperature, rainfall etc.) to train better models
+* Utilise PyTorch module to build LSTM model for more control over hyperparameters and model architecture.
+
 # Resources Used
 * https://machinelearningmastery.com/time-series-forecasting/
 * https://towardsdatascience.com/stationarity-in-time-series-analysis-90c94f27322
