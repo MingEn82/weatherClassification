@@ -4,7 +4,7 @@ This is a mini project for SC1015 (Introduction to Data Science and Artificial I
 You can follow our project using the slides provided [here](https://docs.google.com/presentation/d/1KrQD1V2QRjoReH4YOghomfbqK7u-ulyihedcrom0Euk/edit?usp=sharing "Presentation")
 
 # Problem Definition
-We would like to determine whether one should bring an umbrella outside by predicting the weather condition given past data.
+We would like to determine whether one should bring an umbrella outside by predicting the weather condition given past meteorological data.
 
 # Data Cleaning
 * Missing numerical data was filled with the mean, while categorical data was filled with the previous data point
