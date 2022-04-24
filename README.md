@@ -1,10 +1,12 @@
 # About
 This is a mini project for SC1015 (Introduction to Data Science and Artificial Intelligence) which uses weather conditions taken from [Wunderground](https://www.wunderground.com/weather/WSSS "Wunderground"). We focused on the Changi Airport Station dataset, as it contained the most datapoints for us to work with.
 
+[Presentation Link](https://docs.google.com/presentation/d/1KrQD1V2QRjoReH4YOghomfbqK7u-ulyihedcrom0Euk/edit, "Presentation")
+
 # Contributors
 Kenny - Data Extraction, Slides, Video  
 Wei Xian - EDA, Slides, Video  
-[Ming En](https://github.com/MingEn82 "Github") - Model Architecture, Data Visualization, Data Analysis 
+[Ming En](https://github.com/MingEn82 "Github") - EDA, Model Architecture, Data Visualization, Data Analysis 
 
 # Problem Definition
 We would like to determine whether one should bring an umbrella outside by predicting the weather condition given past data.
