@@ -1,7 +1,7 @@
 # About
 This is a mini project for SC1015 (Introduction to Data Science and Artificial Intelligence) which uses weather conditions taken from [Wunderground](https://www.wunderground.com/weather/WSSS "Wunderground"). We focused on the Changi Airport Station dataset, as it contained the most datapoints for us to work with.
 
-You can follow our project using the slides provided [here](https://docs.google.com/presentation/d/1KrQD1V2QRjoReH4YOghomfbqK7u-ulyihedcrom0Euk/edit, "Presentation")
+You can follow our project using the slides provided [here](https://docs.google.com/presentation/d/1KrQD1V2QRjoReH4YOghomfbqK7u-ulyihedcrom0Euk/edit "Presentation")
 
 # Contributors
 Kenny - Data Extraction, Slides, Video  
