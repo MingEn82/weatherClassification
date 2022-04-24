@@ -4,7 +4,7 @@ This is a mini project for SC1015 (Introduction to Data Science and Artificial I
 You can follow our project using the slides provided [here](https://docs.google.com/presentation/d/1KrQD1V2QRjoReH4YOghomfbqK7u-ulyihedcrom0Euk/edit?usp=sharing "Presentation")
 
 # Problem Definition
-We would like to determine whether one should bring an umbrella outside by predicting the weather condition given past meteorological data.
+With the easing of Covid restrictions, more tourists will be visiting Singapore. However, bad weather can disrupt our outdoor plans, and this is more so for tourists who might not be familiar with the tropical climate of Singapore. Hence, we would like to determine whether one should bring an umbrella outside by predicting the weather condition given past meteorological data, which can be displayed in information kiosk systems around the airport, and maybe even hotels.
 
 # Data Cleaning
 * Missing numerical data was filled with the mean, while categorical data was filled with the previous data point
@@ -21,7 +21,7 @@ We would like to determine whether one should bring an umbrella outside by predi
 2. LSTM
 3. Support Vector Machines with the Radial Basis Function (RBF) kernel
 
-# Models we experimented with
+# Other models we experimented with
 * Support Vector Machines with the linear kernel
 * Multi-layer Perceptron Classifier
 * Balanced Bagging Classifier
