@@ -3,24 +3,29 @@ This is a mini project for SC1015 (Introduction to Data Science and Artificial I
 
 You can follow our project using the slides provided [here](https://docs.google.com/presentation/d/1KrQD1V2QRjoReH4YOghomfbqK7u-ulyihedcrom0Euk/edit?usp=sharing "Presentation")
 
-# Contributors
-Kenny - Data Extraction, Slides, Video  
-Wei Xian - EDA, Slides, Video  
-[Ming En](https://github.com/MingEn82 "Github") - EDA, Model Architecture, Data Visualization, Data Analysis 
-
 # Problem Definition
 We would like to determine whether one should bring an umbrella outside by predicting the weather condition given past data.
+
+# Data Cleaning
+* Missing numerical data was filled with the mean, while categorical data was filled with the previous data point
+* Analyzed whether data was stationary using ADF Test
+* Dropped irrelevant features
+* Converted dataset to time-series
+
+# Handling Imbalanced Data
+* Grouping similar classes together
+* Experimented with sample weights, SMOTE and resampling
 
 # Models used in order of performance
 1. Gradient Boosting Trees
 2. LSTM
 3. Support Vector Machines with the Radial Basis Function (RBF) kernel
-4. Logistic Regression
 
 # Models we experimented with
 * Support Vector Machines with the linear kernel
 * Multi-layer Perceptron Classifier
 * Balanced Bagging Classifier
+* Logistic Regression
 
 # Conclusion
 * Resampling imbalanced data improved model performance especially on the minority class
@@ -40,6 +45,11 @@ We would like to determine whether one should bring an umbrella outside by predi
 * Classify whether conditions on degree of urgency (e.g. “Highly Recommended”, "Slightly Recommended", “Not Recommended” etc.)
 * Include macroweather features (long term flucuations of temperature, rainfall etc.) to train better models
 * Utilise PyTorch module to build LSTM model for more control over hyperparameters and model architecture.
+
+# Contributors
+Kenny - Data Extraction, Slides, Video  
+Wei Xian - EDA, Slides, Video  
+[Ming En](https://github.com/MingEn82 "Github") - EDA, Model Architecture, Data Visualization, Data Analysis 
 
 # Resources Used
 * https://machinelearningmastery.com/time-series-forecasting/
