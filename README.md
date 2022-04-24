@@ -56,3 +56,4 @@ Wei Xian - EDA, Slides, Video
 * https://towardsdatascience.com/stationarity-in-time-series-analysis-90c94f27322
 * https://scikit-learn.org/stable/
 * https://www.tensorflow.org/api_docs/python/tf/keras/
+* https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2015GL065665
